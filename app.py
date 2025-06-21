@@ -6,7 +6,7 @@ from efficientnet_pytorch import EfficientNet
 import os
 
 # --- SETTINGS ---
-MODEL_PATH = "efficientnet_b0_banknote.pth"
+MODEL_PATH = "mobilenetv2_banknote_predictor.h5"
 NUM_CLASSES = 7
 CLASS_NAMES = ["50", "100", "200", "500", "1000", "5000", "10000"]
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
